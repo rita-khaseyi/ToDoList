@@ -1,0 +1,256 @@
+.person{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+body{
+  background-color: #F4C27F;
+}
+
+    
+
+.ui{
+    background-color: #F4C27F;
+}
+.p{
+    font-size: 15px;
+}
+.p1{
+    font-size: 10px;
+    margin-bottom: 3%;
+}
+.logout{
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #F4C27F;
+    color: black;
+    /* margin: 2% 4%; */
+    cursor: pointer;
+    font-size: 14px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  /* Styling for the task list container */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling for each task item */
+.people {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  padding: 10px;
+  background-color: #F4C27F;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.people input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.people span {
+  display: flex;
+  align-items: center;
+}
+
+.people i {
+  color: #777;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Styling for completed tasks */
+.people input[type="checkbox"]:checked + input {
+  text-decoration: line-through;
+  color: gray;
+}
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the UI section */
+.ui {
+  background-color: #F4C27F;
+  text-align: center;
+  padding: 20px;
+}
+
+.person {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.name {
+  font-size: 15px;
+}
+
+.description {
+  font-size: 10px;
+  margin-bottom: 3%;
+}
+
+.logout {
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #F4C27F;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Styling for the task list section */
+.task-list {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.task-title {
+  margin-bottom: 10px;
+}
+
+.clock {
+  width: 50px;
+  height: 50px;
+}
+
+.greeting {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for each task item */
+.people {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  padding: 10px;
+  background-color: #F4C27F;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task-input {
+  width: 300px;
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-task-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+ 
+}
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the  section */
+.ui {
+  background-color: #F4C27F;
+  text-align: center;
+  padding: 20px;
+}
+
+.person {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.name {
+  font-size: 15px;
+}
+
+.description {
+  font-size: 10px;
+  margin-bottom: 3%;
+}
+
+.logout {
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #F4C27F;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Styling for the greeting section */
+.greeting-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.clock {
+  width: 50px;
+  height: 50px;
+  
+}
+
+.greeting {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Styling for the task list section */
+.task-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+  
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: -center;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+/* Card */
+.card {
+  background-color: #7FA5F4;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  
+}
